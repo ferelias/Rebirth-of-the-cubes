@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+}
+
+body{
+    background-image: url("img/naturecubos.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Tilt Warp';
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+.elemento-menu{
+    display: flex;
+    background-color: #9cddd176;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid #35bbd9;
+    border-radius: 100px;
+    margin: 10px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.redes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.redesb{
+    border: 5px solid #35bbd9;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.redesb:hover{
+    background-color: #35bbd9;
+}
+
+a{
+    text-decoration: none;
+    color: #F7E2BA;
+    font-size: 30px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+
+
+.enlace-menu{
+    padding: 60.30px 0;
+}
+
+.cuads{
+   width: 270px;  
+   padding: 1px; 
+}
+
+
+#game-container {
+    width: 100%;
+    height: 100%;
+}
+
+canvas {
+   display: block; 
+}
